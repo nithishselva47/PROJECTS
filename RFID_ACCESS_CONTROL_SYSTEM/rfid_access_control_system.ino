@@ -82,7 +82,7 @@ void loop()
               else {
                 Serial.println("\nThe password is incorrect, try again");
                 lcd.clear();
-                lcd.setCursor(0,0);
+                lcd.setCursor(0,0); 
                 lcd.print("password=wrong");
                 lcd.setCursor(0,1);
                 lcd.print("Try again");
